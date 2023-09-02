@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #fff !important;
+}
+.about-title {
+  margin: 20px 0;
+  text-align: center;
+}
+.about-title p {
+  font-size: 14px;
+}
+.Main-container {
+  width: 100%;
+}
+.first {
+  width: 100%;
+  display: flex;
+}
+.first-left {
+  width: 50%;
+}
+.first-right {
+  margin-top: 10px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.second {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+}
+.second-left {
+  width: 50%;
+}
+.socials {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.socials h4 {
+  width: 100%;
+  text-align: center;
+}
+.socials i {
+  font-size: 30px;
+}
+.socials div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.socials div div {
+  width: 50%;
+}
+.socials div p {
+  margin-left: 5px;
+}
+.second-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.Main-container img {
+  border-radius: 30px;
+  width: 500px;
+  height: 450px;
+}
+.icons-social {
+  margin-right: 5px;
+}
+@media (max-width: 768px) {
+  .Main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .first-right {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .second {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .second-left {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .second-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .socials {
+    height: 100%;
+    display: flex;
+    align-items: start;
+  }
+}

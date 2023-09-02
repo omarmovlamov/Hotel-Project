@@ -1,0 +1,25 @@
+body {
+  overflow-x: hidden;
+  z-index: 10;
+}
+.lang-select-up {
+  position: fixed;
+  margin: 10px;
+  z-index: 1;
+}
+select {
+  width: 90px;
+  text-align: center;
+}
+select:hover {
+  cursor: pointer;
+  background-color: transparent;
+  background-color: rgba(158, 158, 158, 0.438);
+  color: black;
+  background-color: transparent;
+}
+.lang-select-down {
+  position: fixed;
+  margin-top: 55px;
+  z-index: 1;
+}

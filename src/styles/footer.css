@@ -1,0 +1,94 @@
+/* footer.css */
+
+.footer {
+  background: rgb(107, 120, 131);
+  background: linear-gradient(
+    37deg,
+    rgba(49, 49, 49, 0.801) 0%,
+    rgba(40, 56, 58, 0.925) 100%
+  );
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-info p,
+.social-media a {
+  margin: 10px 0;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.contact-info i,
+.social-media i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e3554a;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #555;
+}
+.reservation {
+  padding-top: 20px;
+  text-align: center;
+}
+.reservation p {
+  padding-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .footer-section {
+    flex: 1 1 100%;
+    margin-right: 0;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+  .reservation {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    flex: 1 1 100%;
+    margin-right: 0;
+  }
+  .reservation {
+    text-align: center;
+  }
+}
