@@ -1,6 +1,8 @@
 live- https://dexsvoahotel.netlify.app/
 
-To run the project: npm run dev
+To run the project:
+1->Clone this project
+npm run dev
 
 # React + Vite
 
