@@ -1,9 +1,13 @@
 live- https://dexsvoahotel.netlify.app/
 
 To run the project:
+</br>
 1->Clone this project/download zip
+</br>
 2->Open a new terminal
-3->npm run dev
+</br>
+3->Write : npm run dev
+</br>
 
 # React + Vite
 
